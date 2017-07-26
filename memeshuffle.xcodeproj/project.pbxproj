@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B78E904D288674DC4C6DC12 /* Pods_memeshuffle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BBD75FB973AE74F39F12DE /* Pods_memeshuffle.framework */; };
 		3783B6B01F1B79CC00D3C42B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783B6AF1F1B79CC00D3C42B /* AppDelegate.swift */; };
 		3783B6B21F1B79CC00D3C42B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783B6B11F1B79CC00D3C42B /* ViewController.swift */; };
 		3783B6B51F1B79CC00D3C42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3783B6B31F1B79CC00D3C42B /* Main.storyboard */; };
 		3783B6B71F1B79CC00D3C42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3783B6B61F1B79CC00D3C42B /* Assets.xcassets */; };
 		3783B6BA1F1B79CC00D3C42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3783B6B81F1B79CC00D3C42B /* LaunchScreen.storyboard */; };
 		3783B6C51F1B79CC00D3C42B /* memeshuffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783B6C41F1B79CC00D3C42B /* memeshuffleTests.swift */; };
+		3783B6D01F1B79EA00D3C42B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3783B6CF1F1B79EA00D3C42B /* Podfile */; };
+		3783B6D21F1B7A5F00D3C42B /* DankMemeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783B6D11F1B7A5F00D3C42B /* DankMemeService.swift */; };
+		3783B6D41F1B7D2300D3C42B /* DankMemeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783B6D31F1B7D2300D3C42B /* DankMemeServiceTests.swift */; };
+		37E05C1A1F28C8CF00BDE0AB /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E05C191F28C8CF00BDE0AB /* SwiftSpinner.swift */; };
+		37E05C1C1F28CE2F00BDE0AB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 37E05C1B1F28CE2F00BDE0AB /* .gitignore */; };
+		56CA2919C856F674826F6F46 /* Pods_memeshuffleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B284664B54E4685155D496E8 /* Pods_memeshuffleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28BBD75FB973AE74F39F12DE /* Pods_memeshuffle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memeshuffle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3783B6AC1F1B79CC00D3C42B /* memeshuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memeshuffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3783B6AF1F1B79CC00D3C42B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3783B6B11F1B79CC00D3C42B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,16 @@
 		3783B6C01F1B79CC00D3C42B /* memeshuffleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memeshuffleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3783B6C41F1B79CC00D3C42B /* memeshuffleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memeshuffleTests.swift; sourceTree = "<group>"; };
 		3783B6C61F1B79CC00D3C42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3783B6CF1F1B79EA00D3C42B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3783B6D11F1B7A5F00D3C42B /* DankMemeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DankMemeService.swift; sourceTree = "<group>"; };
+		3783B6D31F1B7D2300D3C42B /* DankMemeServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DankMemeServiceTests.swift; sourceTree = "<group>"; };
+		37E05C191F28C8CF00BDE0AB /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		37E05C1B1F28CE2F00BDE0AB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5ECC11D6CB32316663CB5BB3 /* Pods-memeshuffle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memeshuffle.release.xcconfig"; path = "Pods/Target Support Files/Pods-memeshuffle/Pods-memeshuffle.release.xcconfig"; sourceTree = "<group>"; };
+		71970B1856559618A4AA65C2 /* Pods-memeshuffleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memeshuffleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-memeshuffleTests/Pods-memeshuffleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5642EEBED833B6480A95384 /* Pods-memeshuffleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memeshuffleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-memeshuffleTests/Pods-memeshuffleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B284664B54E4685155D496E8 /* Pods_memeshuffleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memeshuffleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8C4109C9AF2AAB7290F081 /* Pods-memeshuffle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memeshuffle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-memeshuffle/Pods-memeshuffle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B78E904D288674DC4C6DC12 /* Pods_memeshuffle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CA2919C856F674826F6F46 /* Pods_memeshuffleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E97DBD8053B164F311BB454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28BBD75FB973AE74F39F12DE /* Pods_memeshuffle.framework */,
+				B284664B54E4685155D496E8 /* Pods_memeshuffleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3783B6A31F1B79CC00D3C42B = {
 			isa = PBXGroup;
 			children = (
+				37E05C1B1F28CE2F00BDE0AB /* .gitignore */,
+				3783B6CF1F1B79EA00D3C42B /* Podfile */,
 				3783B6AE1F1B79CC00D3C42B /* memeshuffle */,
 				3783B6C31F1B79CC00D3C42B /* memeshuffleTests */,
 				3783B6AD1F1B79CC00D3C42B /* Products */,
+				6A881E11C1CF2EFE087BD678 /* Pods */,
+				0E97DBD8053B164F311BB454 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +116,8 @@
 				3783B6B61F1B79CC00D3C42B /* Assets.xcassets */,
 				3783B6B81F1B79CC00D3C42B /* LaunchScreen.storyboard */,
 				3783B6BB1F1B79CC00D3C42B /* Info.plist */,
+				3783B6D11F1B7A5F00D3C42B /* DankMemeService.swift */,
+				37E05C191F28C8CF00BDE0AB /* SwiftSpinner.swift */,
 			);
 			path = memeshuffle;
 			sourceTree = "<group>";
@@ -92,8 +127,20 @@
 			children = (
 				3783B6C41F1B79CC00D3C42B /* memeshuffleTests.swift */,
 				3783B6C61F1B79CC00D3C42B /* Info.plist */,
+				3783B6D31F1B7D2300D3C42B /* DankMemeServiceTests.swift */,
 			);
 			path = memeshuffleTests;
+			sourceTree = "<group>";
+		};
+		6A881E11C1CF2EFE087BD678 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF8C4109C9AF2AAB7290F081 /* Pods-memeshuffle.debug.xcconfig */,
+				5ECC11D6CB32316663CB5BB3 /* Pods-memeshuffle.release.xcconfig */,
+				A5642EEBED833B6480A95384 /* Pods-memeshuffleTests.debug.xcconfig */,
+				71970B1856559618A4AA65C2 /* Pods-memeshuffleTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3783B6C91F1B79CC00D3C42B /* Build configuration list for PBXNativeTarget "memeshuffle" */;
 			buildPhases = (
+				BD646A489BC9AFA877EB782C /* [CP] Check Pods Manifest.lock */,
 				3783B6A81F1B79CC00D3C42B /* Sources */,
 				3783B6A91F1B79CC00D3C42B /* Frameworks */,
 				3783B6AA1F1B79CC00D3C42B /* Resources */,
+				3D6FB7FFD4EA5138AF19DDA6 /* [CP] Embed Pods Frameworks */,
+				670D89E71B7246AD48783048 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3783B6CC1F1B79CC00D3C42B /* Build configuration list for PBXNativeTarget "memeshuffleTests" */;
 			buildPhases = (
+				95C96F1957C53B5A1CD82AD7 /* [CP] Check Pods Manifest.lock */,
 				3783B6BC1F1B79CC00D3C42B /* Sources */,
 				3783B6BD1F1B79CC00D3C42B /* Frameworks */,
 				3783B6BE1F1B79CC00D3C42B /* Resources */,
+				AFC8DCA41BCBD3EF0FB30B1B /* [CP] Embed Pods Frameworks */,
+				C84045A97A4D67D00432936C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,10 +199,13 @@
 				TargetAttributes = {
 					3783B6AB1F1B79CC00D3C42B = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZM8S4JN2H9;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					3783B6BF1F1B79CC00D3C42B = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3783B6AB1F1B79CC00D3C42B;
 					};
@@ -179,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E05C1C1F28CE2F00BDE0AB /* .gitignore in Resources */,
 				3783B6BA1F1B79CC00D3C42B /* LaunchScreen.storyboard in Resources */,
 				3783B6B71F1B79CC00D3C42B /* Assets.xcassets in Resources */,
+				3783B6D01F1B79EA00D3C42B /* Podfile in Resources */,
 				3783B6B51F1B79CC00D3C42B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,13 +252,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D6FB7FFD4EA5138AF19DDA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memeshuffle/Pods-memeshuffle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		670D89E71B7246AD48783048 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memeshuffle/Pods-memeshuffle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C96F1957C53B5A1CD82AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC8DCA41BCBD3EF0FB30B1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memeshuffleTests/Pods-memeshuffleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD646A489BC9AFA877EB782C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C84045A97A4D67D00432936C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memeshuffleTests/Pods-memeshuffleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3783B6A81F1B79CC00D3C42B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3783B6B21F1B79CC00D3C42B /* ViewController.swift in Sources */,
+				37E05C1A1F28C8CF00BDE0AB /* SwiftSpinner.swift in Sources */,
 				3783B6B01F1B79CC00D3C42B /* AppDelegate.swift in Sources */,
+				3783B6D21F1B7A5F00D3C42B /* DankMemeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3783B6C51F1B79CC00D3C42B /* memeshuffleTests.swift in Sources */,
+				3783B6D41F1B7D2300D3C42B /* DankMemeServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,8 +493,10 @@
 		};
 		3783B6CA1F1B79CC00D3C42B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8C4109C9AF2AAB7290F081 /* Pods-memeshuffle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZM8S4JN2H9;
 				INFOPLIST_FILE = memeshuffle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.memeshuffle;
@@ -351,8 +507,10 @@
 		};
 		3783B6CB1F1B79CC00D3C42B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECC11D6CB32316663CB5BB3 /* Pods-memeshuffle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZM8S4JN2H9;
 				INFOPLIST_FILE = memeshuffle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.memeshuffle;
@@ -363,6 +521,7 @@
 		};
 		3783B6CD1F1B79CC00D3C42B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5642EEBED833B6480A95384 /* Pods-memeshuffleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +536,7 @@
 		};
 		3783B6CE1F1B79CC00D3C42B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71970B1856559618A4AA65C2 /* Pods-memeshuffleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -408,6 +568,7 @@
 				3783B6CB1F1B79CC00D3C42B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3783B6CC1F1B79CC00D3C42B /* Build configuration list for PBXNativeTarget "memeshuffleTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +577,7 @@
 				3783B6CE1F1B79CC00D3C42B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
